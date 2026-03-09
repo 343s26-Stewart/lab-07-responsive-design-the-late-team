@@ -57,3 +57,7 @@ body.debug {
 body.tall {
     height: 100vh;
 }
+
+img {
+    max-width: 100%;
+}
