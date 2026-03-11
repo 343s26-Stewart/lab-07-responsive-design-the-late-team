@@ -1,0 +1,17 @@
+@media (width <=374px) {
+    .wrapper {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+        "content"
+         "nav";
+         
+        &>* {
+            padding: 1rem;
+        }
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: space-between;
+    }
+}
