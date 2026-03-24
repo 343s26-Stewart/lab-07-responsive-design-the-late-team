@@ -1,107 +1,59 @@
-body {
-    background-color: #121212;
-    color: limegreen;
-}
-
-header.main-head {
-    background-color: darkblue !important;
-}
-
-nav.main-nav {
-    background-color: darkblue !important;
-}
-
-main.content {
-    background-color: darkblue !important;
-}
-
-aside.side {
-    background-color: darkblue !important;
-}
-
-div.ad {
-    background-color: darkblue !important;
-}
-
-footer.main-footer {
-    background-color: darkblue !important;
-}
-
-body.debug header.main-head {
-    background-color: darkblue !important;
-}
-
-body.debug nav.main-nav {
-    background-color: darkblue !important;
-}
-
-body.debug main.content {
-    background-color: darkblue !important;
-}
-
-body.debug aside.side {
-    background-color: darkblue !important;
-}
-
-body.debug div.ad {
-    background-color: darkblue !important;
-}
-
-body.debug footer.main-footer {
-    background-color: darkblue !important;
-}
-
 @media (prefers-color-scheme: dark) {
-    body {
+    body:not(.force-light) {
         background-color: #121212;
-        color: limegreen;
+        color: #e0e0e0;
     }
+    body:not(.force-light) header.main-head,
+    body.debug:not(.force-light) header.main-head {
+        background-color: #1e1e1e !important;
+    }
+    body:not(.force-light) nav.main-nav,
+    body.debug:not(.force-light) nav.main-nav {
+        background-color: #2a2a2a !important;
+    }
+    body:not(.force-light) main.content,
+    body.debug:not(.force-light) main.content {
+        background-color: #1a1a2e !important;
+    }
+    body:not(.force-light) aside.side,
+    body.debug:not(.force-light) aside.side {
+        background-color: #16213e !important;
+    }
+    body:not(.force-light) div.ad,
+    body.debug:not(.force-light) div.ad {
+        background-color: #16213e !important;
+    }
+    body:not(.force-light) footer.main-footer,
+    body.debug:not(.force-light) footer.main-footer {
+        background-color: #1e1e1e !important;
+    }
+}
 
-    header.main-head {
-        background-color: darkblue !important;
-    }
-
-    nav.main-nav {
-        background-color: darkblue !important;
-    }
-
-    main.content {
-        background-color: darkblue !important;
-    }
-
-    aside.side {
-        background-color: darkblue !important;
-    }
-
-    div.ad {
-        background-color: darkblue !important;
-    }
-
-    footer.main-footer {
-        background-color: darkblue !important;
-    }
-
-    body.debug header.main-head {
-        background-color: darkblue !important;
-    }
-
-    body.debug nav.main-nav {
-        background-color: darkblue !important;
-    }
-
-    body.debug main.content {
-        background-color: darkblue !important;
-    }
-
-    body.debug aside.side {
-        background-color: darkblue !important;
-    }
-
-    body.debug div.ad {
-        background-color: darkblue !important;
-    }
-
-    body.debug footer.main-footer {
-        background-color: darkblue !important;
-    }
+body.force-dark {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+body.force-dark header.main-head,
+body.debug.force-dark header.main-head {
+    background-color: #1e1e1e !important;
+}
+body.force-dark nav.main-nav,
+body.debug.force-dark nav.main-nav {
+    background-color: #2a2a2a !important;
+}
+body.force-dark main.content,
+body.debug.force-dark main.content {
+    background-color: #1a1a2e !important;
+}
+body.force-dark aside.side,
+body.debug.force-dark aside.side {
+    background-color: #16213e !important;
+}
+body.force-dark div.ad,
+body.debug.force-dark div.ad {
+    background-color: #16213e !important;
+}
+body.force-dark footer.main-footer,
+body.debug.force-dark footer.main-footer {
+    background-color: #1e1e1e !important;
 }
