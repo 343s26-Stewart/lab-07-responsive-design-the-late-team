@@ -1,6 +1,30 @@
 body {
-    background-color: black;
-    color: greenyellow;
+    background-color: #121212;
+    color: limegreen;
+}
+
+header.main-head {
+    background-color: darkblue !important;
+}
+
+nav.main-nav {
+    background-color: darkblue !important;
+}
+
+main.content {
+    background-color: darkblue !important;
+}
+
+aside.side {
+    background-color: darkblue !important;
+}
+
+div.ad {
+    background-color: darkblue !important;
+}
+
+footer.main-footer {
+    background-color: darkblue !important;
 }
 
 body.debug header.main-head {
@@ -25,4 +49,59 @@ body.debug div.ad {
 
 body.debug footer.main-footer {
     background-color: darkblue !important;
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #121212;
+        color: limegreen;
+    }
+
+    header.main-head {
+        background-color: darkblue !important;
+    }
+
+    nav.main-nav {
+        background-color: darkblue !important;
+    }
+
+    main.content {
+        background-color: darkblue !important;
+    }
+
+    aside.side {
+        background-color: darkblue !important;
+    }
+
+    div.ad {
+        background-color: darkblue !important;
+    }
+
+    footer.main-footer {
+        background-color: darkblue !important;
+    }
+
+    body.debug header.main-head {
+        background-color: darkblue !important;
+    }
+
+    body.debug nav.main-nav {
+        background-color: darkblue !important;
+    }
+
+    body.debug main.content {
+        background-color: darkblue !important;
+    }
+
+    body.debug aside.side {
+        background-color: darkblue !important;
+    }
+
+    body.debug div.ad {
+        background-color: darkblue !important;
+    }
+
+    body.debug footer.main-footer {
+        background-color: darkblue !important;
+    }
 }
